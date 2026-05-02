@@ -1,0 +1,707 @@
+body {
+  margin: 0%;
+  font-family: "Poppins", sans-serif;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+.barraColorida {
+  background: linear-gradient(90deg, rgba(100, 123, 54, 1) 0%, rgba(0, 232, 255, 1) 100%);
+  height: 15px;
+}
+
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 300px 0px 300px;
+  border-radius: 100px;
+  padding: 10px 40px 10px 40px;
+  -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.32);
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.32);
+}
+
+.logo h1 {
+  margin: 0%;
+  background-image: linear-gradient(90deg, rgba(100, 123, 54, 1) 0%, rgba(0, 232, 255, 1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu img {
+  margin: 0%;
+  width: 30px;
+}
+
+.areaTitulo {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 35px;
+}
+
+.areaTitulo h1 {
+  color: black;
+  font-size: 50px;
+  margin: 0%;
+}
+
+.faixaCard {
+  height: 20px;
+  background-color: #0ba84a;
+  margin: 0px 420px 0px 420px;
+  border-radius: 20px 20px 0px 0px;
+  -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.32);
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.32);
+}
+
+.cardNegativa {
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.32);
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.32);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 420px 80px 420px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.nomeEstudante {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.nomeEstudante h1 {
+  margin: 0%;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.nomeEstudante input {
+  height: 30px;
+  width: 600px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  -moz-box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 10px;
+}
+
+.nomeEstudante input::placeholder {
+  color: #a6a6a6;
+}
+
+.cgm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.cgm h1 {
+  margin: 0%;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.cgm input {
+  height: 30px;
+  width: 750px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  -moz-box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 10px;
+}
+
+.cgm input::placeholder {
+  color: #a6a6a6;
+}
+
+.serieTurma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.serieTurma h1 {
+  margin: 0%;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.serieTurma select {
+  height: 30px;
+  width: 655px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  -moz-box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 10px;
+}
+
+.disciplina {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.disciplina h1 {
+  margin: 0%;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.disciplina select {
+  height: 30px;
+  width: 705px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  -moz-box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 10px;
+}
+
+.profissionalCgm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.profissionalCgm h1 {
+  margin: 0%;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.profissionalCgm input {
+  height: 30px;
+  width: 610px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  -moz-box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 10px;
+}
+
+.profissionalCgm input::placeholder {
+  color: #a6a6a6;
+}
+
+.data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.data h1 {
+  margin: 0%;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.data input {
+  height: 30px;
+  width: 760px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  -moz-box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 10px;
+}
+
+.areaFatoObservado {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.titFatoObservado {
+  display: flex;
+  justify-content: center;
+}
+
+.titFatoObservado h1 {
+  margin: 0%;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.motivo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.motivo h1 {
+  margin: 0%;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.motivo select {
+  height: 30px;
+  width: 750px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  -moz-box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 10px;
+}
+
+.textareaFatoObservado {
+  display: flex;
+  justify-content: center;
+}
+
+.textareaFatoObservado textarea {
+  width: 840px;
+  height: 500px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  -moz-box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+  box-shadow: 0px 0px 13px -1px rgba(222, 222, 222, 1);
+}
+
+.textareaFatoObservado textarea::placeholder {
+  color: #a6a6a6;
+}
+
+.areaBotoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.areaBotoes button {
+  font-size: 20px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+
+.btnLimpar {
+  background-color: #737373;
+}
+
+.btnEnviar {
+  background-color: #0ba84a;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 1400px) {
+  .navBar {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+
+  .faixaCard,
+  .cardNegativa {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+
+  .nomeEstudante input,
+  .cgm input,
+  .serieTurma select,
+  .disciplina select,
+  .profissionalCgm input,
+  .data input,
+  .motivo select,
+  .textareaFatoObservado textarea {
+    width: 100%;
+    max-width: 840px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navBar {
+    margin: 20px 25px 0 25px;
+    padding: 10px 25px;
+  }
+
+  .areaTitulo {
+    margin-top: 45px;
+    margin-bottom: 28px;
+    padding: 0 20px;
+  }
+
+  .areaTitulo h1 {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+
+  .faixaCard,
+  .cardNegativa {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .nomeEstudante,
+  .cgm,
+  .serieTurma,
+  .disciplina,
+  .profissionalCgm,
+  .data,
+  .motivo {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+  }
+
+  .nomeEstudante h1,
+  .cgm h1,
+  .serieTurma h1,
+  .disciplina h1,
+  .profissionalCgm h1,
+  .data h1,
+  .motivo h1 {
+    font-size: 22px;
+  }
+
+  .nomeEstudante input,
+  .cgm input,
+  .serieTurma select,
+  .disciplina select,
+  .profissionalCgm input,
+  .data input,
+  .motivo select {
+    width: 100%;
+    max-width: none;
+    height: 40px;
+    box-sizing: border-box;
+  }
+
+  .areaFatoObservado {
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+  }
+
+  .titFatoObservado h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .textareaFatoObservado {
+    width: 100%;
+  }
+
+  .textareaFatoObservado textarea {
+    width: 100%;
+    height: 380px;
+    max-width: none;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 600px) {
+  .navBar {
+    margin: 15px 12px 0 12px;
+    padding: 10px 16px;
+  }
+
+  .logo h1 {
+    font-size: 20px;
+  }
+
+  .menu img {
+    width: 24px;
+  }
+
+  .areaTitulo {
+    margin-top: 35px;
+    margin-bottom: 22px;
+    padding: 0 15px;
+  }
+
+  .areaTitulo h1 {
+    font-size: 28px;
+  }
+
+  .faixaCard,
+  .cardNegativa {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .nomeEstudante,
+  .cgm,
+  .serieTurma,
+  .disciplina,
+  .profissionalCgm,
+  .data,
+  .motivo {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .nomeEstudante h1,
+  .cgm h1,
+  .serieTurma h1,
+  .disciplina h1,
+  .profissionalCgm h1,
+  .data h1,
+  .motivo h1 {
+    font-size: 18px;
+  }
+
+  .nomeEstudante input,
+  .cgm input,
+  .serieTurma select,
+  .disciplina select,
+  .profissionalCgm input,
+  .data input,
+  .motivo select {
+    height: 42px;
+    font-size: 15px;
+  }
+
+  .areaFatoObservado {
+    margin-top: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .titFatoObservado h1 {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .textareaFatoObservado textarea {
+    height: 260px;
+    font-size: 15px;
+    padding: 15px;
+  }
+
+  .areaBotoes {
+    flex-direction: column;
+    padding: 0 15px;
+    margin-bottom: 30px;
+  }
+
+  .areaBotoes button {
+    width: 100%;
+    max-width: 300px;
+    height: 42px;
+    font-size: 17px;
+  }
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.menuDropdown {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  width: 170px;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.14);
+  padding: 8px 0;
+  display: none;
+  z-index: 999;
+}
+
+.menuDropdown.ativo {
+  display: block;
+}
+
+.menuDropdown a {
+  display: block;
+  padding: 12px 18px;
+  color: #333;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.menuDropdown a:hover {
+  background-color: #f4f4f4;
+}

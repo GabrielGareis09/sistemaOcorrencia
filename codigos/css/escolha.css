@@ -1,0 +1,280 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+.barraColorida {
+  background: linear-gradient(90deg, rgba(100, 123, 54, 1) 0%, rgba(0, 232, 255, 1) 100%);
+  height: 15px;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titulo h1 {
+  margin: 0%;
+  background-image: linear-gradient(90deg, rgba(100, 123, 54, 1) 0%, rgba(0, 232, 255, 1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-size: 80px;
+  margin-bottom: 100px;
+}
+
+.botoes {
+  display: flex;
+  gap: 20px;
+}
+
+.botoes img {
+  width: 40px;
+}
+
+.btnNegativa,
+.btnPositiva {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 80px;
+  border-radius: 30px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btnNegativa {
+  background: linear-gradient(90deg, rgba(255, 0, 0, 0.4) 0%, rgba(255, 255, 255, 1) 100%);
+  border: rgba(255, 0, 0, 0.336) 1px solid;
+}
+
+.btnNegativa h1 {
+  color: red;
+  font-size: 25px;
+}
+
+.btnPositiva {
+  background: linear-gradient(90deg, rgba(0, 255, 33, 0.4) 0%, rgba(255, 255, 255, 1) 100%);
+  border: rgba(0, 128, 0, 0.349) 1px solid;
+}
+
+.btnPositiva h1 {
+  color: #0ba84a;
+  font-size: 25px;
+}
+
+.BtnHistorico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: linear-gradient(90deg, rgba(0, 18, 255, 0.4) 0%, rgba(255, 255, 255, 1) 100%);
+  border: #1800ad 1px solid;
+  width: 825px;
+  height: 60px;
+  border-radius: 30px;
+  margin-top: 35px;
+}
+
+.BtnHistorico img {
+  width: 40px;
+}
+
+.BtnHistorico h1 {
+  color: #1800ad;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .titulo h1 {
+    font-size: 56px;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+
+  .botoes {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .btnNegativa,
+  .btnPositiva {
+    width: 90vw;
+    max-width: 400px;
+  }
+
+  .BtnHistorico {
+    width: 90vw;
+    max-width: 825px;
+  }
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 20px 15px;
+    box-sizing: border-box;
+  }
+
+  .titulo h1 {
+    font-size: 40px;
+    margin-bottom: 45px;
+    line-height: 1.1;
+  }
+
+  .btnNegativa,
+  .btnPositiva {
+    width: 100%;
+    height: 72px;
+    gap: 12px;
+    padding: 0 12px;
+    box-sizing: border-box;
+  }
+
+  .btnNegativa h1,
+  .btnPositiva h1 {
+    font-size: 20px;
+  }
+
+  .botoes img {
+    width: 32px;
+  }
+
+  .BtnHistorico {
+    width: 100%;
+    height: 64px;
+    gap: 12px;
+    padding: 0 12px;
+    box-sizing: border-box;
+  }
+
+  .BtnHistorico h1 {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .BtnHistorico img {
+    width: 32px;
+  }
+}
