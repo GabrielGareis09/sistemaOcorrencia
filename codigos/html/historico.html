@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/historico.css">
+    <title>Histórico</title>
+</head>
+
+<body>
+    <section>
+        <div class="barraColorida"></div>
+    </section>
+
+    <header class="areaNav">
+        <div class="navBar">
+            <div class="logo">
+                <a href="../html/escolha.html">
+                    <h1>Ocorrência+</h1>
+                </a>
+            </div>
+
+            <div class="menu">
+                <img src="../img/menu.png" alt="" id="btnMenu">
+
+                <div class="menuDropdown" id="menuDropdown">
+                    <a href="../html/escolha.html">Home</a>
+                    <a href="../html/historico.html">Histórico</a>
+                    <a href="../html/login.html">Sair</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="areaTitulo">
+            <h1>Histórico de Ocorrências</h1>
+        </div>
+
+        <div class="areaStatus">
+            <button class="btnAtivado filtroStatus" data-status="todas">Todas</button>
+            <button class="btnDesativado filtroStatus" data-status="pendente">Pendentes</button>
+            <button class="btnDesativado filtroStatus" data-status="aprovada">Aprovadas</button>
+            <button class="btnDesativado filtroStatus" data-status="arquivada">Arquivadas</button>
+        </div>
+
+        <div class="cardHistorico">
+            <div class="areaFiltros">
+                <div class="titFiltros">
+                    <h1>Filtros de Busca</h1>
+                </div>
+
+                <div class="inputsFiltros">
+                    <input type="text" id="filtroNome" placeholder="Buscar aluno...">
+
+                    <select id="filtroTurma">
+                        <option value="">Selecionar turma</option>
+                        <option>1º Ano A - Sala 101</option>
+                        <option>1º Ano B - Sala 102</option>
+                        <option>1º Ano C - Sala 103</option>
+                        <option>2º Ano A - Sala 201</option>
+                        <option>2º Ano B - Sala 202</option>
+                        <option>2º Ano C - Sala 203</option>
+                        <option>3º Ano A - Sala 301</option>
+                        <option>3º Ano B - Sala 302</option>
+                        <option>3º Ano C - Sala 303</option>
+                        <option>3º Ano D - Sala 304</option>
+                    </select>
+
+                    <select id="filtroTipo">
+                        <option value="">Tipo de ocorrência</option>
+                        <option>Negativa</option>
+                        <option>Positiva</option>
+                    </select>
+
+                    <input type="date" id="filtroData">
+
+                    <button type="button" class="btnLimparFiltros">Limpar</button>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Aluno</th>
+                            <th>Turma</th>
+                            <th>Data</th>
+                            <th>Tipo</th>
+                            <th>Status</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="tabelaOcorrencias"></tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div class="modalOcorrencia" id="modalOcorrencia">
+        <div class="modalConteudo">
+            <div class="modalTopo">
+                <h2>Detalhes da Ocorrência</h2>
+                <button id="fecharModal">×</button>
+            </div>
+
+            <div class="modalBody" id="modalBody"></div>
+
+            <div class="modalRodape">
+                <select id="alterarStatus">
+                    <option value="pendente">Pendente</option>
+                    <option value="aprovada">Aprovada</option>
+                    <option value="arquivada">Arquivada</option>
+                </select>
+
+                <button id="salvarStatus">Salvar status</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/historico.js"></script>
+</body>
+
+</html>
